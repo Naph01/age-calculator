@@ -70,7 +70,7 @@ function calculateDate () {
     let bMonth = monthInput.value;
     let bYear = yearInput.value;
 
-    if ((bDate < 1 || bDate > 31) || (bMonth < 1 || bMonth > 12) || (bYear < 1800 || bYear > 2024)){
+    if ((bDate < 1 || bDate > 31) || (bMonth < 1 || bMonth > 12) || (bYear < 1500 || bYear > 2024)){
         years.innerHTML = '--';
         month.innerHTML = '--';
         day.innerHTML = '--';
